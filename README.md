@@ -10,30 +10,21 @@
 
 ### A Practical, End-to-End Data Engineering, AI & BI Ecosystem
 
-Built as a hands-on learning and production platform covering analytics, orchestration, data engineering, AI/ML, MLOps, and business intelligence.
-
-[![GitHub](https://img.shields.io/badge/GitHub-SkillAIPath-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME/SkillAIPath)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Databricks](https://img.shields.io/badge/Azure%20Databricks-FF3621?style=flat&logo=databricks&logoColor=white)](https://www.databricks.com/)
-[![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)](https://spark.apache.org/)
-[![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)](https://www.getdbt.com/)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](https://mlflow.org/)
+A hands-on learning and production platform covering analytics, orchestration, data engineering, AI/ML, MLOps, business intelligence, observability, and intelligent applications.
 
 ---
 
 ## About
 
-**SkillAIPath** is a structured, five-module repository designed to demonstrate the complete modern data and AI lifecycle.
+**SkillAIPath** is a structured five-module ecosystem demonstrating the modern data and AI lifecycle — from analytics foundations and platform orchestration to production data engineering, AI/ML, MLOps, BI, observability, and live applications.
 
-The platform progresses from foundational analytics and platform orchestration to production-style data engineering, AI/ML and MLOps, and finally business intelligence, observability, and live applications.
-
-Each module is designed to be self-contained while building toward a complete production-oriented ecosystem.
+Each module is self-contained while contributing to a complete production-oriented ecosystem.
 
 ---
 
 ## Ecosystem Overview
 
-| Module | Focus | Key Areas |
+| **Module** | **Focus** | **Key Areas** |
 |---|---|---|
 | **0. Core Analytics** | Foundational Analytics | SQL, Business Analysis, EduFin Case Study |
 | **1. Canvas** | Platform Foundation | Setup, Orchestration, Apps, External Data |
@@ -51,14 +42,11 @@ A guided analytics case study built around **EduFin**, a fictional education len
 
 ### What's Included
 
-**SQL & Analytics**  
-SQL Fundamentals · JOINs · Aggregations · Filtering · CTEs
-
-**Risk & Portfolio Analysis**  
-Portfolio Health · Customer Risk · Time Analysis · Cost Tracking
-
-**Learning & Workflow**  
-`00_Start_Here.md` · Structured Onboarding · Business-Focused Analytical Workflows
+| **Area** | **Coverage** |
+|---|---|
+| **SQL & Analytics** | SQL Fundamentals · JOINs · Aggregations · Filtering · CTEs |
+| **Risk & Portfolio Analysis** | Portfolio Health · Customer Risk · Time Analysis · Cost Tracking |
+| **Learning & Workflow** | `00_Start_Here.md` · Structured Onboarding · Business-Focused Analytical Workflows |
 
 ### Technology
 
@@ -76,33 +64,26 @@ The platform foundation layer used for environment setup, orchestration, reusabl
 
 ### What's Included
 
-**Platform Foundation**  
-Environment Configuration · Synthetic Data Generation · Architecture Diagrams
-
-**Pipeline & Orchestration**  
-Full-Load Pipeline Orchestration · Incremental Pipeline Orchestration
-
-**Application Patterns**  
-Reusable Application Templates · Realtime Monitoring Patterns · Predictive Analytics Applications · Executive Reporting
-
-**Business Workflows**  
-Supply Chain API Patterns · Automated Reorder Workflows · Gold Analytics Dashboard Patterns
-
-**External Data**  
-External Data Ingestion · Supplier Data · Weather Data · Exchange-Rate Data · Logistics Data
+| **Area** | **Coverage** |
+|---|---|
+| **Platform Foundation** | Environment Configuration · Synthetic Data Generation · Architecture Diagrams |
+| **Pipeline & Orchestration** | Full-Load Pipeline Orchestration · Incremental Pipeline Orchestration |
+| **Application Patterns** | Reusable Application Templates · Realtime Monitoring Patterns · Predictive Analytics Applications · Executive Reporting |
+| **Business Workflows** | Supply Chain API Patterns · Automated Reorder Workflows · Gold Analytics Dashboard Patterns |
+| **External Data** | External Data Ingestion · Supplier Data · Weather Data · Exchange-Rate Data · Logistics Data |
 
 ### Application Templates
 
-The Canvas module contains reference implementations for multiple production-style application patterns:
-
-- Realtime Monitoring
-- Predictive Analytics
-- Executive Reporting
-- Supply Chain API
-- Automated Reorder
-- Gold Analytics Dashboard
-- Reference Application Patterns
-- Orchestration Applications
+| **Application / Pattern** | **Included** |
+|---|:---:|
+| Realtime Monitoring | ✓ |
+| Predictive Analytics | ✓ |
+| Executive Reporting | ✓ |
+| Supply Chain API | ✓ |
+| Automated Reorder | ✓ |
+| Gold Analytics Dashboard | ✓ |
+| Reference Application Patterns | ✓ |
+| Orchestration Applications | ✓ |
 
 Several applications are containerized using Docker.
 
@@ -125,37 +106,14 @@ A production-oriented data platform built around the **Medallion Architecture**,
 
 ### What's Included
 
-#### Unity Catalog Governance
-
-**Governance & Security**  
-Catalog & Schema Management · Iceberg / UniForm Setup · Governance Patterns · Secrets Management · PII Masking · Access-Control Patterns
-
-#### Medallion Architecture
-
-**Data Layers & Modeling**  
-Bronze Ingestion · Silver Transformations · Gold Data Products · Dimension Modeling · Fact Modeling · Streaming CDC · Gold-Layer Aggregations · Analytical Views
-
-#### dbt Project
-
-The `sap_dw` dbt project includes:
-
-**dbt Development**  
-Staging Models · Intermediate Models · Mart Models · Macros · Seeds · Tests · Transformation Workflows
-
-#### Data Quality & Operations
-
-**Quality & Testing**  
-Quality Gates · Validation Framework · Data Validation · Optimization Routines · Automated Checks · Pytest-Based Testing
-
-#### OLTP ↔ OLAP Synchronization
-
-**Data Synchronization**  
-REST API Ingestion · OAuth Authentication · Paginated API Extraction · OLTP-to-OLAP Synchronization · Incremental Synchronization Patterns
-
-#### Monitoring & Governance
-
-**Operations & Observability**  
-Troubleshooting Runbooks · Logging · Alerting · Audit Trail Queries · Time-Travel Recovery · Data Profiling · Data Drift Detection · Operational Monitoring
+| **Area** | **Coverage** |
+|---|---|
+| **Unity Catalog Governance** | Catalog & Schema Management · Iceberg / UniForm Setup · Governance Patterns · Secrets Management · PII Masking · Access-Control Patterns |
+| **Medallion Architecture** | Bronze Ingestion · Silver Transformations · Gold Data Products · Dimension Modeling · Fact Modeling · Streaming CDC · Gold-Layer Aggregations · Analytical Views |
+| **dbt Project — `sap_dw`** | Staging Models · Intermediate Models · Mart Models · Macros · Seeds · Tests · Transformation Workflows |
+| **Data Quality & Operations** | Quality Gates · Validation Framework · Data Validation · Optimization Routines · Automated Checks · Pytest-Based Testing |
+| **OLTP ↔ OLAP Synchronization** | REST API Ingestion · OAuth Authentication · Paginated API Extraction · OLTP-to-OLAP Synchronization · Incremental Synchronization Patterns |
+| **Monitoring & Governance** | Troubleshooting Runbooks · Logging · Alerting · Audit Trail Queries · Time-Travel Recovery · Data Profiling · Data Drift Detection · Operational Monitoring |
 
 ### Technology
 
@@ -178,39 +136,28 @@ The AI and machine learning layer of SkillAIPath, covering model development, ML
 
 ### MLOps
 
-Training and deployment workflows for:
-
-- Churn Prediction
-- Product Recommendation
-- Demand Forecasting
-- Next Purchase Prediction
-
-The MLOps workflows also cover:
-
-- Model training
-- Experiment tracking
-- Model deployment
-- REST API inference
-- Batch inference
-- Real-time inference
-- Batch vs. real-time comparison
-- A/B testing
+| **Area** | **Coverage** |
+|---|---|
+| **Models** | Churn Prediction · Product Recommendation · Demand Forecasting · Next Purchase Prediction |
+| **Core Lifecycle** | Model Training · Experiment Tracking · Model Deployment · REST API Inference |
+| **Inference** | Batch Inference · Real-Time Inference |
+| **Advanced Workflows** | Batch vs. Real-Time Comparison · A/B Testing |
 
 ### RAG Pipeline
 
-Retrieval-Augmented Generation workflows for:
-
-- Customer 360
-- Ecommerce Intelligence
-- Knowledge Retrieval
+| **Use Case** | **Coverage** |
+|---|---|
+| Customer 360 | Retrieval-Augmented Generation |
+| Ecommerce Intelligence | Retrieval-Augmented Generation |
+| Knowledge Retrieval | Retrieval-Augmented Generation |
 
 ### AI Agents
 
-Includes reference implementations for:
-
-- SAP Knowledge Agent
-- RAG-based agents
-- Domain-specific agent templates
+| **Agent Type** | **Coverage** |
+|---|---|
+| SAP Knowledge Agent | Reference Implementation |
+| RAG-Based Agents | Reference Implementation |
+| Domain-Specific Agents | Reusable Agent Templates |
 
 ### Technology
 
@@ -231,27 +178,25 @@ The business intelligence, observability, monitoring, and application layer of t
 
 ### Platform Observability
 
-Includes monitoring patterns for:
-
-**Monitoring & Metrics**  
-Cost Tracking · Custom Metrics · Data Quality · Lakehouse Monitoring · ML Monitoring · Performance Monitoring
-
-**Operations**  
-Incident Management · Operational Runbooks
+| **Area** | **Coverage** |
+|---|---|
+| **Monitoring & Metrics** | Cost Tracking · Custom Metrics · Data Quality · Lakehouse Monitoring · ML Monitoring · Performance Monitoring |
+| **Operations** | Incident Management · Operational Runbooks |
 
 ### BI Production
 
-**Business Intelligence**  
-Dashboard Setup · BI Data Operations · Analytical Reporting · Production-Oriented Dashboard Workflows
+| **Area** | **Coverage** |
+|---|---|
+| **Business Intelligence** | Dashboard Setup · BI Data Operations · Analytical Reporting · Production-Oriented Dashboard Workflows |
 
 ### Live Applications
 
-The repository includes two Streamlit applications:
+| **Application** | **Purpose** |
+|---|---|
+| **PR Reviewer** | Business-facing review workflow |
+| **Team Operations Center** | Business-facing operational application |
 
-- **PR Reviewer**
-- **Team Operations Center**
-
-These demonstrate how data and AI workflows can be exposed through usable business-facing applications.
+These Streamlit applications expose data and AI workflows through usable business-facing interfaces.
 
 ### Technology
 
@@ -265,7 +210,7 @@ These demonstrate how data and AI workflows can be exposed through usable busine
 
 # Technology Stack
 
-| Category | Technologies |
+| **Category** | **Technologies** |
 |---|---|
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white) |
 | **Data Analysis** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white) |
