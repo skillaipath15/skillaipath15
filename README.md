@@ -2,9 +2,6 @@
   <img src="./SkillAIPath-Arch_Update.png.png" alt="SkillAIPath Banner" width="100%">
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00FF7F&center=true&vCenter=true&width=650&height=50&size=24&font=Fira+Code&weight=700&lines=Real+Experience+Real+Growth;Building+Data+Engineering+%26+AI+Systems;Learning+By+Building+Real+Projects;From+Data+to+Production">
-</p>
 
 # SkillAIPath
 
