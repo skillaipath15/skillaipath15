@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./skillai-banner.png.png" alt="SkillAIPath Banner" width="100%">
+  <img src="./SkillAIPath-Arch_Update.png.png" alt="SkillAIPath Banner" width="100%">
 </p>
 
 <p align="center">
